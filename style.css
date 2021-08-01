@@ -1,0 +1,376 @@
+body {
+  width: 1200px;
+  margin: auto;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+/* Navigation Bar 1 */
+
+.pageLogo {
+  padding: 20px;
+}
+
+.nav1 {
+  position: relative;
+  padding-right: 0;
+  padding-top: 20px;
+}
+
+.nav1FlagDiv {
+  padding-left: 55px;
+}
+
+.nav1Div {
+  margin-right: 20px;
+}
+
+/* Navigation Bar 2 */
+
+.nav2 {
+  position: absolute;
+  margin-top: 100px;
+  border: 0.5px solid grey;
+  border-radius: 5px;
+}
+
+.nav2Text {
+  color: black;
+  text-decoration: none;
+
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 14px;
+  color: rgb(46, 45, 45);
+  padding: 5px;
+}
+
+.searchBar {
+  margin-left: 240px;
+  margin-right: 10px;
+  padding: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.nav2Text:hover {
+  color: rgb(46, 45, 45);
+}
+
+/* Navigation Bar 3 */
+
+.nav3 {
+  position: absolute;
+  margin-top: 150px;
+}
+
+.nav3Text {
+  font-size: 12px;
+
+  padding-left: 5px;
+  font-family: "Oswald", sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+.nav3Text:hover {
+  color: black;
+}
+
+/* Intro Div */
+
+.intro {
+  position: absolute;
+  margin-top: 180px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 10px;
+  width: 870px;
+  height: 350px;
+}
+
+.introBadge {
+  position: absolute;
+}
+
+.introRed {
+  color: red;
+  font-size: 15px;
+  padding-left: 90px;
+  margin-bottom: 0;
+  position: absolute;
+}
+
+.bigRed {
+  padding-left: 90px;
+  position: absolute;
+  margin-top: 15px;
+}
+
+.introGraduate {
+  color: rgb(151, 149, 149);
+  margin-left: 90px;
+  position: absolute;
+  margin-top: 55px;
+}
+
+.introLists {
+  position: absolute;
+}
+
+.introSNG {
+  padding-right: 10px;
+}
+
+.introExtra {
+  position: absolute;
+  margin-top: 200px;
+}
+
+.introSpan {
+  font-size: 13px;
+  margin-top: 30px;
+}
+
+.introProfile {
+  border: 1px solid grey;
+  position: relative;
+  padding: 10px;
+  float: right;
+  display: inline;
+}
+
+.list1 {
+  margin-top: 95px;
+}
+
+.list2 {
+  margin-top: 130px;
+}
+
+.list3 {
+  margin-top: 160px;
+}
+
+.list4 {
+  margin-top: 260px;
+}
+
+.list5 {
+  margin-top: 300px;
+}
+
+/* Graph Div */
+
+.graph {
+  position: absolute;
+  margin-top: 550px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 10px;
+  width: 870px;
+}
+
+.turnToGrey {
+  color: rgb(151, 149, 149);
+  font-size: 11px;
+  padding-left: 40px;
+}
+
+.graphGivePadding {
+  position: absolute;
+  margin-top: 15px;
+}
+
+.graphImage {
+  margin-top: 30px;
+}
+
+/* Activity Div */
+
+.activity {
+  position: absolute;
+  margin-top: 920px;
+  width: 870px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.choose {
+  display: inline;
+}
+
+.table1 {
+  width: 100%;
+  height: 90px;
+}
+
+.bold {
+  font-size: 22px;
+  margin-bottom: 0;
+  padding: 0;
+  margin: 0;
+}
+
+td {
+  padding: 5px;
+}
+
+.grey {
+  font-size: 13px;
+  color: grey;
+  padding: 0;
+  margin: 0;
+}
+
+/* Pay Attention Div */
+
+.payAttention {
+  position: absolute;
+  margin-top: 700px;
+  display: inline;
+  margin-top: 180px;
+  margin-left: 550px;
+  width: 300px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.payAttentionHeading {
+  border-bottom: solid 1px grey;
+  padding: 5px 10px 5px 10px;
+  margin: 0;
+  font-weight: bold;
+  color: rgb(0, 110, 255);
+}
+
+.payAttentionContent {
+  text-align: center;
+  margin: 0;
+  padding-top: 5px;
+}
+
+.payAttentionFooter {
+  border-top: 1px solid grey;
+  font-size: 13px;
+  margin: 0;
+  padding: 5px;
+}
+
+/* Streams Div */
+
+.streams {
+  position: absolute;
+  display: inline;
+  margin-top: 420px;
+  margin-left: 550px;
+  width: 300px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.footer {
+  border-top: 1px solid grey;
+  font-size: 13px;
+  margin: 0;
+  padding: 2px;
+}
+
+/* Top Rated Div */
+
+.topRated {
+  position: absolute;
+  display: inline;
+  margin-top: 580px;
+  margin-left: 550px;
+  width: 300px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.table2 {
+  text-align: center;
+  width: 100%;
+}
+
+/* Top Contributors Div */
+
+.topContributors {
+  position: absolute;
+  display: inline;
+  margin-top: 960px;
+  margin-left: 550px;
+  width: 300px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+/* Find User Div */
+
+.findUser {
+  position: absolute;
+  display: inline;
+  margin-top: 1355px;
+  margin-left: 550px;
+  width: 300px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.findContext {
+  padding: 10px;
+}
+
+.btn {
+  padding: 0 5px 0 5px;
+  float: right;
+  border: 1px solid black;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  background-color: rgb(204, 204, 204);
+}
+
+.findUserText {
+  padding-right: 37px;
+}
+
+/* Recent Actions div */
+
+.recentActions {
+  position: absolute;
+  display: inline;
+  margin-top: 1500px;
+  margin-left: 550px;
+  width: 300px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  font-size: 13px;
+  padding: 10px;
+}
+
+/* Horizontal Rule */
+
+hr {
+  position: absolute;
+  padding-right: 600px;
+  height: 2px;
+  width: 1200px;
+}
+
+/* Footer */
+
+.footerDown {
+  position: absolute;
+  margin: 2300px auto 10px auto;
+  text-align: center;
+  padding-left: 400px;
+  padding-bottom: 20px;
+  border-top: 1px solid rgb(46, 46, 46);
+  padding-right: 420px;
+}

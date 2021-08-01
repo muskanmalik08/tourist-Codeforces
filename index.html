@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>tourist- Codeforces</title>
+    <meta name="description" content="Students' Affair Cell Weab Team task">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Roboto Condensed Font Link -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    
+
+    <!-- Bootstrap Link -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- CSS Link -->
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Website Logo -->
+
+    <img src="https://codeforces.org/s/11526/images/codeforces-logo-with-telegram.png" class="pageLogo left">
+
+    <!-- Top NavBar -->
+
+    <nav class="nav1 right">
+        <div class="nav1FlagDiv">
+            <img src="https://codeforces.org/s/11526/images/flags/24/gb.png" class="nav1Flag">
+        <img src="https://codeforces.org/s/11526/images/flags/24/ru.png" class="nav1Flag"><br>
+        </div>
+        <div class="nav1Div">
+            <a href="#" class="nav1Text">Enter</a> | 
+        <a href="#" class="nav1Text">Register</a>
+        </div>
+    </nav>
+
+    <!-- Second NavBar -->
+
+    <nav class="nav2">
+        <a href="#" class="nav2Text">HOME</a>
+        <a href="#" class="nav2Text">TOP</a>
+        <a href="#" class="nav2Text">CONTESTS</a>
+        <a href="#" class="nav2Text">GYM</a>
+        <a href="#" class="nav2Text">PROBLEMSET</a>
+        <a href="#" class="nav2Text">GROUPS</a>
+        <a href="#" class="nav2Text">RATING</a>
+        <a href="#" class="nav2Text">EDU</a>
+        <a href="#" class="nav2Text">API</a>
+        <a href="#" class="nav2Text">CALENDAR</a>
+        <a href="#" class="nav2Text">HELP</a>
+        <a href="#" class="nav2Text">DELTIX ROUNDS 2021🏆</a>
+        <input type="text" placeholder="🔎" class="searchBar right">
+    </nav>
+
+    <!-- Third NavBar -->
+
+    <nav class="nav3">
+        <a href="#" class="nav3Text">TOURIST</a>
+        <a href="#" class="nav3Text">BLOG</a>
+        <a href="#" class="nav3Text">TEAMS</a>
+        <a href="#" class="nav3Text">SUBMISSIONS</a>
+        <a href="#" class="nav3Text">GROUPS</a>
+        <a href="#" class="nav3Text">CONTESTS</a>
+        <a href="#" class="nav3Text">PROBLEMSETTING</a>
+    </nav>
+
+    <!-- Intro Div -->
+
+    <div class="intro left">
+        <img src="https://codeforces.org/s/11526/images/badge-crowdfunding-2020.png" class="introBadge">
+        <h3 class="introRed">Legendary Grandmaster</h3>
+        <h2 class="bigRed">t<span style="color:red;">ourist
+        </span></h2>
+            <p class="introGraduate" style="font-size: 11px;">Gennady Korotkevich, <a href="#">Gomel</a>, <a href="#">Belarus</a><br>
+                From <a href="#">ITMO University</a>
+            </p>
+            <p class="introLists list1"><img src="https://codeforces.org/s/11526/images/icons/rating-24x24.png" class="introSNG">Contest rating:
+            <span style="color:red">3821</span> <span class="introSpan">(max. <span style="color:red">legendary grandmaster, 3821</span>)</span></p>
+            <p class="introLists list2"><img src="https://codeforces.org/s/11526/images/icons/star_blue_24.png" class="introSNG">Contribution:
+            <span style="color:green">+172</span>
+            </p>
+            <p class="introLists list3"><img src="https://codeforces.org/s/11526/images/icons/star_yellow_24.png" class="introSNG">Friend of: 35818 users</p>
+            <div class="introExtra">
+                Last visit: 12 hours ago <br>
+            Registeres: 11 years ago <br>
+            </div>
+            <p class="introLists list4"><img src="https://codeforces.org/s/11526/images/icons/blog.png" class="introSNG"><a href="#">Blog
+                    entries(32), Comments</a></p>
+            <p class="introLists list5"><img src="https://codeforces.org/s/74792/images/actions/mail_generic.png" class="introSNG"><a href="#">Talks </a>|<a href="#"> Send message</a></p>
+            <img src="https://userpic.codeforces.org/422/title/50a270ed4a722867.jpg" class="introProfile">
+    </div>
+
+    <!-- Graph Div -->
+
+    <div class="graph left">
+        <p class="turnToGrey graphGivePadding">Click on the graph to enable the zoom feature.</p>
+        <select name="choose" id="choose" class="right chose">
+            <option>Only Rated</option>
+            <option>All</option>
+          </select>
+            <img src="Graph.PNG" class="graphImage">
+    </div>
+
+        <!-- Public Activity Div -->
+
+        <div class="activity left">
+            <p class="turnToGrey">Only public activity</p>
+            <select name="Choose year" id="year" class="choose right">
+                <option>Choose Year</option>
+                <option>2021</option>
+                <option>2020</option>
+                <option>2019</option>
+                <option>2018</option>
+                <option>2017</option>
+                <option>2016</option>
+                <option>2015</option>
+                <option>2014</option>
+                <option>2013</option>
+                <option>2012</option>
+                <option>2011</option>
+                <option>2010</option>
+              </select>
+                <img src="activity.PNG" class="activityImage">
+                <table class="table1">
+                    <tr>
+                        <td>
+                            <p class="bold">1683 problems</p><br>
+                            <p class="grey">solved for all time</p>
+                        </td>
+                        <td>
+                            <p class="bold">279 problems</p><br>
+                            <p class="grey">solved for the last year</p>
+                        </td>
+                        <td>
+                            <p class="bold">18 problems</p><br>
+                            <p class="grey">solved for the last month</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="bold">5 days</p><br>
+                            <p class="grey">in a row max</p>
+                        </td>
+                        <td>
+                            <p class="bold">5 days</p><br>
+                            <p class="grey">in a row for the last year</p>
+                        </td>
+                        <td>
+                            <p class="bold">1 day</p><br>
+                            <p class="grey">in a row for the last month</p>
+                        </td>
+                    </tr>
+                </table>
+            
+        </div>
+
+            <!-- Pay Attention Div -->
+
+            <div class="payAttention right">
+                <p class="payAttentionHeading">⮕ Pay Attention</p>
+                <p class="payAttentionContent">
+                    Before contest<br>
+                    <a href="#">Educational Codeforces Round 112. (Rated for Div. 2).</a><br>
+                <span class="turnToGrey" style="text-align: center; font-size: 15px; margin: 0;">03:15:41</span><br>
+                <a href="#">Register now >> </a>
+                </p>
+                <p class="payAttentionFooter">
+                    <img src="like.PNG" class="fblike">
+                <span class="smallText">103 people like this. Be the first of your friends.</span></p>
+            </div>
+
+            <!-- Streams Div -->
+
+            <div class="streams">
+                <p class="payAttentionHeading">⮕ Streams</p>
+                <p class="payAttentionContent">
+                    <a href="#">Edu Round #112<br> Solution Explanations</a><br>
+                <span style="font-size:13px;">By
+                <span style="color:red;">Geothermal</span>
+                </span></p>
+                <p class="footer"><a href="#" class="right">View All ⮕</a></p>
+                </p>
+            </div>
+
+            <!-- Top Rated Div -->
+
+            <div class="topRated">
+                <p class="payAttentionHeading">⮕ Top rated</p>
+                <table class="table2 table table-striped table-bordered">
+                    <tr>
+                        <th style="padding:0;"><b>#</b></th>
+                        <th style="padding:0;"><b>User</b></th>
+                        <th style="padding:0;"><b>Rating</b></th>
+                    </tr>
+                    <tr>
+                        <td style="padding:0;">1</td>
+                        <td style="padding:0;">t<span style="color:red;">ourist</span>
+                        </td>
+                        <td style="padding:0;">3821</td>
+                    </tr>
+                    <tr>
+                        <td style="padding:0;">2</td>
+                        <td style="padding:0;">B<span style="color:red;">enq</span>
+                        </td>
+                        <td style="padding:0;">3744</td>
+                    </tr>
+                    <tr>
+                        <td style="padding:0;">3</td>
+                        <td style="padding:0;">k<span style="color:red;">sun48</span>
+                        </td>
+                        <td style="padding:0;">3559</td>
+                    </tr>
+                    <tr>
+                        <td style="padding:0;">4</td>
+                        <td style="padding:0;">R<span style="color:red;">adewoosh</span>
+                        </td>
+                        <td style="padding:0;">3538</td>
+                    </tr>
+                    <tr>
+                        <td style="padding:0;">5</td>
+                        <td style="padding:0;">p<span style="color:red;">eehs_moorhsum</span>
+                        </td>
+                        <td style="padding:0;">3531</td>
+                    </tr>
+                    <tr>
+                        <td style="padding:0;">6</td>
+                        <td style="padding:0;">U<span style="color:red;">m_nik</span>
+                        </td>
+                        <td style="padding:0;">3488</td>
+                    </tr>
+                    <tr>
+                        <td style="padding:0;">7</td>
+                        <td style="padding:0;">m<span style="color:red;">aroonrk</span>
+                        </td>
+                        <td style="padding:0;">3423</td>
+                    </tr>
+                    <tr>
+                        <td style="padding:0;">8</td>
+                        <td style="padding:0;">P<span style="color:red;">etr</span>
+                        </td>
+                        <td style="padding:0;">3379</td>
+                    </tr>
+                    <tr>
+                        <td style="padding:0;">9</td>
+                        <td style="padding:0;">s<span style="color:red;">unset</span>
+                        </td>
+                        <td style="padding:0;">3337</td>
+                    </tr>
+                    <tr>
+                        <td style="padding:0;">10</td>
+                        <td style="padding:0;">e<span style="color:red;">cnerwala</span>
+                        </td>
+                        <td style="padding:0;">3335</td>
+                    </tr>
+                </table>
+                <p class="footer"><a href="#">Countries</a> | <a href="#">Cities</a> | <a href="#">Organisations</a>
+                <a href="#" class="right">View all ⮕</a>
+                </p>
+            </div>
+
+            <!-- Top Contributors Div -->
+
+            <div class="topContributors">
+                <p class="payAttentionHeading">⮕ Top contributors</p>
+                <table class="table2  table table-striped table-bordered">
+                    <tr>
+                        <th style="padding:0;"><b>#</b></th>
+                        <th style="padding:0;"><b>User</b></th>
+                        <th style="padding:0;"><b>Contrib.</b></th>
+                    </tr>
+                    <tr>
+                        <td style="padding:0;">1</td>
+                        <td style="padding:0;">
+                            <span style="color:red;">1-gon</span>
+                        </td>
+                        <td style="padding:0;">206</td>
+                    </tr>
+                    <tr>
+                        <td style="padding:0;">2</td>
+                        <td style="padding:0;">E<span style="color:red;">rrichto</span>
+                        </td>
+                        <td style="padding:0;">181</td>
+                    </tr>
+                    <tr>
+                        <td style="padding:0;">3</td>
+                        <td style="padding:0;">
+                            <span style="color:red;">awoo</span>
+                        </td>
+                        <td style="padding:0;">181</td>
+                    </tr>
+                    <tr>
+                        <td style="padding:0;">4</td>
+                        <td style="padding:0;">U<span style="color:red;">m_nik</span>
+                        </td>
+                        <td style="padding:0;">180</td>
+                    </tr>
+                    <tr>
+                        <td style="padding:0;">5</td>
+                        <td style="padding:0;">
+                            <span style="color:red;">-is-this-fft-</span>
+                        </td style="padding:0;">
+                        <td>175</td>
+                    </tr>
+                    <tr>
+                        <td style="padding:0;">6</td>
+                        <td style="padding:0;">m<span style="color:red;">aroonrk</span>
+                        </td>
+                        <td style="padding:0;">174</td>
+                    </tr>
+                    <tr>
+                        <td style="padding:0;">7</td>
+                        <td style="padding:0;">R<span style="color:red;">adewoosh</span>
+                        </td>
+                        <td style="padding:0;">172</td>
+                    </tr>
+                    <tr>
+                        <td style="padding:0;">8</td>
+                        <td style="padding:0;">t<span style="color:red;">ourist</span>
+                        </td>
+                        <td style="padding:0;">172</td>
+                    </tr>
+                    <tr>
+                        <td style="padding:0;">9</td>
+                        <td style="padding:0;">
+                            <span style="color:red;">SecondThread</span>
+                        </td>
+                        <td style="padding:0;">170</td>
+                    </tr>
+                    <tr>
+                        <td style="padding:0;">10</td>
+                        <td style="padding:0;">r<span style="color:red;">ng_58</span>
+                        </td>
+                        <td style="padding:0;">166</td>
+                    </tr>
+                </table>
+                <p class="footer"><a href="#" class="right">View All ⮕</a></p>
+                </p>
+            </div>
+
+            <!-- Find User Div -->
+
+            <div class="findUser">
+                <p class="payAttentionHeading">⮕ Find user</p>
+                <p class="findContext">
+                    Handle: <input type="text" class="findUserText"><br>
+                <button type="button" class="btn">Find</button>
+                </p>
+            </div>
+
+            <!-- Recent actions Div -->
+
+            <div class="recentActions">
+                <p class="payAttentionHeading">⮕ Recent actions</p>
+                <p class="smallText">
+                    doxpox55 ⮕ <a href="#">Construct Tree</a><br>
+                <span style="color:grey">imsmall</span>⮕ <a href="#">1st blog.</a><br>
+                <span style="color:purple">Taha1506</span>⮕ <a href="#">Good string hashing template</a><br>
+                codedrills_admin ⮕ <a href="#">CodeDrills Hiring for interview Problem Settler Role</a><br>
+                <b>MikeMirzayanov</b> ⮕ <a href="#">Rule about third-party code is changing</a><br>
+                <span style="color:yellow">YouKn0wWho</span> ⮕ <a href="#">Codeforces Round #735.(Div. 2).</a><br>
+                <span style="color:green">robell</span> ⮕ <a href="#">How do you get Policy Based Data Structures on a
+                    Mac?</a><br>
+                <span style="color:grey">uday_chaudhary</span> ⮕ <a href="#">Problem with double submissions.</a><br>
+                <span style="color:yellow">YouKn0wWho</span> ⮕ <a href="#">Editorial of Codeforces Round #735(Div. 2).</a><br>
+                <span style="color:red">awoo</span> ⮕ <a href="#">Educational Codeforces Round 112[Rated for Div. 2]</a><br>
+                <span style="color:grey">imsmall</span>⮕ <a href="#">1st blog.</a><br>
+                <span style="color:purple">Taha1506</span>⮕ <a href="#">Good string hashing template</a><br>
+                <span style="color:yellow">YouKn0wWho</span> ⮕ <a href="#">Codeforces Round #735.(Div. 2).</a><br>
+                <span style="color:green">robell</span> ⮕ <a href="#">How do you get Policy Based Data Structures on a
+                    Mac?</a><br>
+                <span style="color:grey">uday_chaudhary</span> ⮕ <a href="#">Problem with double submissions.</a><br>
+                <span style="color:yellow">YouKn0wWho</span> ⮕ <a href="#">Editorial of Codeforces Round #735(Div. 2).</a><br>
+                <span style="color:red">awoo</span> ⮕ <a href="#">Educational Codeforces Round 112[Rated for Div. 2]</a><br>
+                doxpox55 ⮕ <a href="#">Construct Tree</a><br>
+                </p>
+            </div>
+
+            
+
+            <!-- Footer div -->
+
+            <div class="footerDown">
+                <a href="#">Codeforces</a> (c) Copyright 2010-2021 Mike Mirzayanov<br>
+                The only programming contests Web 2.0 platform<br>
+                Server time: Jul/31/2021 12:10:07<sup>UTC+5.5</sup> (i2).<br>
+                Desktop version, switch to <a href="#">mobile version</a>.<br>
+                <a href="#" class="smallText">Privacy Policy</a><br><br>
+                Supported by<br>
+                <img src="https://codeforces.org/s/74792/images/telegram-100x100.png">
+                <img src="https://codeforces.org/s/74792/images/itmo_small_en-logo.png">
+            </div>
+
+
+</body>
+
+</html>
